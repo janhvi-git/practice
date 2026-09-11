@@ -1,0 +1,123 @@
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>EduLearn</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+            background: #f3f4ff;
+            text-align: center;
+        }
+
+        header {
+            background: #5b5be7;
+            color: white;
+            padding: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+        }
+
+        .hero {
+            padding: 70px 20px;
+        }
+
+        h1 {
+            color: #4b4bd1;
+            font-size: 40px;
+        }
+
+        .btn {
+            background: #5b5be7;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+
+        .cards {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: white;
+            width: 200px;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px #ccc;
+        }
+
+        footer {
+            margin-top: 50px;
+            background: #5b5be7;
+            color: white;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h2>EduLearn</h2>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#courses">Courses</a>
+        <a href="#about">About</a>
+    </nav>
+</header>
+
+<div class="hero">
+    <h1>Learn Something New</h1>
+    <p>Improve your skills with EduLearn.</p>
+    <button class="btn" onclick="alert('Welcome to EduLearn!')">
+        Start Learning
+    </button>
+</div>
+
+<section id="courses">
+    <h2>Our Courses</h2>
+
+    <div class="cards">
+        <div class="card">
+            <h3>HTML</h3>
+            <p>Learn website development.</p>
+            <button class="btn">Learn</button>
+        </div>
+
+        <div class="card">
+            <h3>Python</h3>
+            <p>Learn programming basics.</p>
+            <button class="btn">Learn</button>
+        </div>
+
+        <div class="card">
+            <h3>AWS</h3>
+            <p>Learn cloud computing.</p>
+            <button class="btn">Learn</button>
+        </div>
+    </div>
+</section>
+
+<section id="about">
+    <h2>About EduLearn</h2>
+    <p>A simple education platform for students.</p>
+</section>
+
+<footer>
+    © 2026 EduLearn
+</footer>
+
+</body>
+</html>
+```
